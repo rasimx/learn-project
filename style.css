@@ -4,7 +4,50 @@
     padding: 0;
 }
 
+body {
+    font-family: "Roboto Light", sans-serif;
+}
+
 .container {
-    width: 320px;
     background: #FFFFFF;
+}
+
+/*header*/
+.header_inner {
+    height: 72px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_title {
+    color: #57AD56;
+    font-size: 18px;
+    width: 134px;
+    height: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+
+span {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header_button {
+    width: 90px;
+    height: 45px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    border: 2px solid #E0E0E0;
+    border-radius: 2px;
+    margin-right: 4px;
+    padding-top: 10px;
+
 }
