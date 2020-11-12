@@ -49,5 +49,27 @@ span {
     border-radius: 2px;
     margin-right: 4px;
     padding-top: 10px;
+}
+
+/*intro*/
+
+.intro_inner {
+    height: 255px;
+    background-image: url("img/intro.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro_inner_block {
+    width: 308px;
+    height: 180px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    position: absolute;
+    top: 136px;
+    left: 6px;
+    box-shadow: 0 0 16px rgba(117, 117, 117, 0.2);
 
 }
