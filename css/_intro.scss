@@ -1,5 +1,5 @@
 
-.intro_inner {
+.intro__inner {
   height: 255px;
   background-image: url("../img/intro.jpg");
   background-position: center center;
@@ -8,19 +8,42 @@
   position: relative;
 }
 
-.intro_inner_block {
+.intro__inner_block {
+  max-width: 400px;
   height: 180px;
   background: #FFFFFF;
   border-radius: 2px;
   position: absolute;
   top: 136px;
   left: 6px;
+  right: 6px;
   box-shadow: 0 0 16px rgba(117, 117, 117, 0.2);
+  padding: 20px 15px 30px 15px;
 
 }
 
-
-.intro_title {
+.intro__title {
   font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
 
+}
+
+.intro__text {
+  color: #626262;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro__button {
+  background: #262626;
+  border-radius: 16px;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  max-width: 95px;
+  padding: 8px 10px 8px 10px;
+  align-items: center;
+  margin: auto;
 }
