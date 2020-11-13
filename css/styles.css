@@ -91,4 +91,12 @@ body {
   align-items: center;
   margin: auto; }
 
+.main__nav {
+  height: 80px; }
+
+.main__title {
+  color: #1D1D1D;
+  font-size: 22px;
+  text-align: center; }
+
 /*# sourceMappingURL=styles.css.map */
