@@ -99,4 +99,38 @@ body {
   font-size: 22px;
   text-align: center; }
 
+.main__title:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #757575;
+  margin: 10px auto 40px; }
+
+.main__item {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  height: 102px; }
+
+.main__item_img {
+  border-radius: 2px;
+  float: right;
+  margin-right: 4px; }
+
+.main__item_text {
+  color: #1D1D1D;
+  font-size: 16px;
+  margin-bottom: 55px; }
+
+.main__item_text span {
+  color: #626262;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: block; }
+
+.main__item_price {
+  color: #1D1D1D;
+  font-size: 20px;
+  font-weight: 700; }
+
 /*# sourceMappingURL=styles.css.map */
