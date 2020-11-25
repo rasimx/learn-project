@@ -2,6 +2,8 @@
   background: rgba(117,117,117, 0.04);
   border: 1px solid rgba(117,117,117, .4);
   display: flex;
+  border-radius: 2px;
+
   &__left{
     flex-grow: 1;
     padding: 10px;
@@ -29,16 +31,9 @@
     height: 160px;
     display: block;
     &.round{
-      border-radius: 20px;
+      border-radius: 2px;
 
     }
   }
-  &_small{
-    .teaser__img{
-      height: 100px
-    }
-    .teaser__price{
-      display: none;
-    }
-  }
+
 }

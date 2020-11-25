@@ -1,0 +1,11 @@
+.listing {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__item {
+    width: 49%;
+    margin-bottom: 65px;
+ }
+
+}
