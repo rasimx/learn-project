@@ -7,14 +7,17 @@ body {
   font-family: "Roboto Light", sans-serif; }
 
 .container {
-  background: #FFFFFF; }
+  max-width: 950px;
+  margin: 0 auto; }
 
 .header__inner {
   height: 72px;
   background: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px; }
 .header__title {
   color: #57AD56;
   font-size: 18px;
@@ -23,11 +26,7 @@ body {
   font-weight: 100;
   letter-spacing: 3px;
   text-transform: uppercase;
-  margin-left: 8px; }
-.header__title span {
-  color: black;
-  font-size: 18px;
-  font-weight: 700; }
+  flex-grow: 1; }
 .header__title span {
   color: black;
   font-size: 18px;
@@ -42,8 +41,12 @@ body {
   font-weight: 700;
   border: 2px solid #E0E0E0;
   border-radius: 2px;
-  margin-right: 4px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-right: 26px; }
+.header__basket {
+  background: url("../img/header-icon.png");
+  width: 19px;
+  height: 23px; }
 
 .intro {
   height: 255px;

@@ -8,6 +8,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   &__title {
@@ -18,16 +20,10 @@
     font-weight: 100;
     letter-spacing: 3px;
     text-transform: uppercase;
-    margin-left: 8px;
+    flex-grow: 1;
+
   }
 
-  &__title {
-    span {
-      color: black;
-      font-size: 18px;
-      font-weight: 700;
-    }
-  }
   &__title {
     span {
       color: black;
@@ -46,8 +42,17 @@
     font-weight: 700;
     border: 2px solid #E0E0E0;
     border-radius: 2px;
-    margin-right: 4px;
     padding-top: 10px;
+    margin-right: 26px;
+
+  }
+
+  &__basket {
+    background: url("../img/header-icon.png");
+    width: 19px;
+    height: 23px;
+
   }
 
 }
+
