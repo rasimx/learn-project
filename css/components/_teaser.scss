@@ -1,0 +1,44 @@
+.teaser {
+  background: rgba(117,117,117, 0.04);
+  border: 1px solid rgba(117,117,117, .4);
+  display: flex;
+  &__left{
+    flex-grow: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__right{
+    flex-shrink: 0;
+  }
+  &__title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__text {
+    color: #626262;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 2px;
+    flex-grow: 1;
+  }
+
+  &__img {
+    width: 170px;
+    height: 160px;
+    display: block;
+    &.round{
+      border-radius: 20px;
+
+    }
+  }
+  &_small{
+    .teaser__img{
+      height: 100px
+    }
+    .teaser__price{
+      display: none;
+    }
+  }
+}

@@ -44,12 +44,8 @@ body {
   border-radius: 2px;
   margin-right: 4px;
   padding-top: 10px; }
-.header:after {
-  content: '';
-  display: block;
-  clear: both; }
 
-.intro__inner {
+.intro {
   height: 255px;
   background-image: url("../img/intro.jpg");
   background-position: center center;
@@ -57,7 +53,7 @@ body {
   background-size: cover;
   position: relative; }
 
-.intro__inner_block {
+.intro__inner {
   max-width: 400px;
   height: 180px;
   background: #FFFFFF;
@@ -93,12 +89,10 @@ body {
 
 .main__nav {
   height: 80px; }
-
 .main__title {
   color: #1D1D1D;
   font-size: 22px;
   text-align: center; }
-
 .main__title:after {
   content: "";
   display: block;
@@ -106,31 +100,57 @@ body {
   height: 2px;
   background: #757575;
   margin: 10px auto 40px; }
-
 .main__item {
   margin-left: 10px;
   margin-bottom: 20px;
   height: 102px; }
-
 .main__item_img {
   border-radius: 2px;
   float: right;
   margin-right: 4px; }
-
 .main__item_text {
   color: #1D1D1D;
   font-size: 16px;
   margin-bottom: 55px; }
-
-.main__item_text span {
-  color: #626262;
-  font-size: 14px;
-  margin-bottom: 20px;
-  display: block; }
-
+  .main__item_text span {
+    color: #626262;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block; }
 .main__item_price {
   color: #1D1D1D;
   font-size: 20px;
   font-weight: 700; }
+
+.teaser {
+  background: rgba(117, 117, 117, 0.04);
+  border: 1px solid rgba(117, 117, 117, 0.4);
+  display: flex; }
+  .teaser__left {
+    flex-grow: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; }
+  .teaser__right {
+    flex-shrink: 0; }
+  .teaser__title {
+    font-size: 16px;
+    line-height: 24px; }
+  .teaser__text {
+    color: #626262;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 2px;
+    flex-grow: 1; }
+  .teaser__img {
+    width: 170px;
+    height: 160px;
+    display: block; }
+    .teaser__img.round {
+      border-radius: 20px; }
+  .teaser_small .teaser__img {
+    height: 100px; }
+  .teaser_small .teaser__price {
+    display: none; }
 
 /*# sourceMappingURL=styles.css.map */
