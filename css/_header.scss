@@ -12,29 +12,15 @@
     padding-right: 8px;
   }
 
-  &__title {
-    color: #57AD56;
+  &__logo {
     font-size: 18px;
-    width: 134px;
-    height: 20px;
-    font-weight: 100;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    flex-grow: 1;
-
   }
 
-  &__title {
-    span {
-      color: black;
-      font-size: 18px;
-      font-weight: 700;
-    }
-  }
 
   &__button {
     width: 90px;
     height: 45px;
+    line-height: 43px;
     color: black;
     text-decoration: none;
     text-align: center;
@@ -42,17 +28,30 @@
     font-weight: 700;
     border: 2px solid #E0E0E0;
     border-radius: 2px;
-    padding-top: 10px;
     margin-right: 26px;
-
+    display: inline-block;
+    vertical-align: middle;
   }
 
   &__basket {
     background: url("../img/header-icon.png");
     width: 19px;
     height: 23px;
-
+    display: inline-block;
+    vertical-align: middle;
   }
 
 }
 
+.logo {
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  span {
+    color: #57AD56;
+    font-weight: 100;
+  }
+}

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Uber Eats</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -12,12 +14,18 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <div class="header__title">
-                    <span>uber</span>
-                    eats
+
+                <div class="header__logo">
+                    <a href="/" class="logo">
+                        uber
+                        <span>eats</span>
+                    </a>
                 </div>
-                <a href="#" class="header__button">Войти</a>
-                <a class="header__basket"></a>
+                <div class="header__right">
+
+                    <a href="#" class="header__button">Войти</a>
+                    <a class="header__basket"></a>
+                </div>
             </div>
         </div>
     </header>
@@ -117,22 +125,31 @@
         <div class="container">
             <div class="footer__inner">
                 <div class="footer__header">
-                    <div class="header__title">
-                        <span>uber</span>
-                        eats
-                    </div>
+                    <a href="/" class="logo">
+                        uber
+                        <span>eats</span>
+                    </a>
                 </div>
                 <div class="footer__list">
                     <div class="list">
                         <div class="list__item">
                             <div class="list__item-language">
                                 <select name="language">
-                                  <option value="english">english</option>
-                                  <option value="русский" selected>русский</option>
-                                  <option value="deutsche">deutsche</option>
+                                    <option value="english">english</option>
+                                    <option value="русский" selected>русский</option>
+                                    <option value="deutsche">deutsche</option>
                                 </select>
                             </div>
-                            <div class="list__item-social"></div>
+                            <div class="list__item-social">
+                                <div class="tag">
+                                    <span>#</span>UberEats
+                                </div>
+                                <div class="icons">
+                                    <a href="#" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
                         </div>
                         <div class="list__item">
                             <div class="footer-nav">
