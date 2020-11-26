@@ -146,4 +146,30 @@ body {
     .teaser__img.round {
       border-radius: 2px; }
 
+.footer {
+  background: #262626;
+  height: 550px; }
+  .footer__header {
+    height: 115px;
+    border-bottom: 1px solid #979797;
+    display: flex;
+    align-items: center; }
+    .footer__header .header____title {
+      color: #57AD56;
+      font-size: 18px;
+      width: 134px;
+      height: 20px;
+      font-weight: 100;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      flex-grow: 1; }
+    .footer__header .header__title span {
+      color: #FFFFFF;
+      font-size: 18px;
+      font-weight: 700; }
+  .footer__list {
+    height: 220px;
+    border-bottom: 1px solid #979797;
+    display: flex; }
+
 /*# sourceMappingURL=styles.css.map */
