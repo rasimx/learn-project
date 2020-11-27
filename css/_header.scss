@@ -31,6 +31,10 @@
     margin-right: 26px;
     display: inline-block;
     vertical-align: middle;
+
+    @media (max-width: 320px) {
+      margin-right: 0;
+    }
   }
 
   &__basket {
@@ -39,6 +43,10 @@
     height: 23px;
     display: inline-block;
     vertical-align: middle;
+
+    @media (max-width: 320px) {
+      display: none;
+    }
   }
 
 }
@@ -50,8 +58,12 @@
   text-decoration: none;
   color: inherit;
   font-weight: 700;
+
   span {
     color: #57AD56;
     font-weight: 100;
   }
+
+
 }
+

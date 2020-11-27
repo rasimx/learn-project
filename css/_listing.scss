@@ -6,6 +6,12 @@
     &__item {
     width: 49%;
     margin-bottom: 65px;
+
+        @media (max-width: 1124px) {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
  }
 
 }

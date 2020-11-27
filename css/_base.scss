@@ -9,14 +9,18 @@ body {
 }
 
 .container {
-  max-width: 950px;
+  max-width: 980px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
 
 .page-title {
-    height: 122px;
-    padding-top: 60px;
-    font-size: 22px;
-    line-height: 34px;
-    font-weight: normal;
-  }
+  height: 122px;
+  padding-top: 60px;
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
