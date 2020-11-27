@@ -212,4 +212,12 @@ body {
       line-height: 15px;
       margin-bottom: 27px; }
 
+.button {
+  width: 80px;
+  height: 80px;
+  background: #59BD5A;
+  position: fixed;
+  bottom: 26px;
+  right: 55px; }
+
 /*# sourceMappingURL=styles.css.map */
