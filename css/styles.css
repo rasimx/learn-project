@@ -152,7 +152,6 @@ body {
 
 .footer {
   background: #262626;
-  height: 550px;
   color: white; }
   .footer__header {
     height: 115px;
@@ -162,6 +161,23 @@ body {
   .footer__list {
     height: 220px;
     border-bottom: 1px solid #979797; }
+  .footer__link {
+    height: 122px;
+    border-bottom: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer__link .link__img {
+      border-radius: 6px;
+      margin-right: 16px; }
+  .footer__copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px; }
+    .footer__copyright .copyright {
+      font-size: 12px;
+      margin-right: 100px; }
 
 .list {
   padding-top: 35px;
@@ -170,16 +186,30 @@ body {
   justify-content: space-between; }
   .list__item {
     width: 33.3%; }
-  .list .list__item-language {
+  .list select {
+    background: #3B3B3B;
+    color: white;
     width: 230px;
-    height: 40px;
-    background: #979797;
-    padding-top: 10px;
-    padding-left: 80px; }
-    .list .list__item-language select {
-      background: #979797; }
+    height: 40px; }
+  .list .list__item-social {
+    margin-top: 35px; }
   .list .icons a {
     color: white;
-    font-size: 20px; }
+    font-size: 18px;
+    margin-right: 13px; }
+  .list .tag {
+    font-size: 14px;
+    margin-bottom: 15px; }
+    .list .tag span {
+      color: #57AD56; }
+  .list .footer-nav {
+    display: flex;
+    flex-direction: column; }
+    .list .footer-nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 15px;
+      margin-bottom: 27px; }
 
 /*# sourceMappingURL=styles.css.map */

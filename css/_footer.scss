@@ -1,6 +1,6 @@
 .footer {
   background: #262626;
-  height: 550px;
+  //height: 550px;
   color: white;
 
   &__header {
@@ -15,6 +15,34 @@
     border-bottom: 1px solid #979797;
   }
 
+  &__link {
+    height: 122px;
+    border-bottom: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .link__img {
+      border-radius: 6px;
+      margin-right: 16px;
+
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+
+
+    .copyright {
+      font-size: 12px;
+      margin-right: 100px;
+    }
+
+  }
+
 }
 
 .list {
@@ -27,29 +55,49 @@
     width: 33.3%;
   }
 
-  .list__item-language {
+
+  select {
+    background: #3B3B3B;
+    color: white;
     width: 230px;
     height: 40px;
-    background: #979797;
-    padding-top: 10px;
-    padding-left: 80px;
 
-    select {
-      background: #979797;
-    }
   }
 
   .list__item-social {
-
+    margin-top: 35px;
   }
 
-.icons {
-  a {
-     color: white;
-    font-size: 20px;
+  .icons {
+    a {
+      color: white;
+      font-size: 18px;
+      margin-right: 13px;
+    }
   }
- }
 
+  .tag {
+    font-size: 14px;
+    margin-bottom: 15px;
+
+    span {
+      color: #57AD56;
+    }
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 15px;
+      margin-bottom: 27px;
+    }
+  }
 
 }
 
