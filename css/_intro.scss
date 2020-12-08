@@ -12,29 +12,33 @@
     height: 364px;
 
   }
+
   &__banner {
     position: relative;
-    top: 55px;
+    
+    @media (max-width: 560px) {
+      height: 180px;
+      width: 308px;
+      top: 30px;
+    }
+
   }
 
-  @media (max-width: 768px) {
-    &__inner {
-      height: 255px;
-      align-items: flex-end;
-    }
+  @media (max-width: 560px) {
+    top: 55px;
+    height: 255px;
 
   }
 }
 
 
 .banner {
-  //max-width: 400px;
+  max-width: 400px;
   height: 180px;
   background: #FFFFFF;
   border-radius: 2px;
   box-shadow: 0 0 16px rgba(117, 117, 117, 0.2);
   padding: 20px 15px 30px 15px;
-
 
   &__title {
     font-size: 36px;
@@ -69,11 +73,24 @@
 
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 560px) {
 
     &__title {
-    font-size: 24px;
-    line-height: 28px;
+      font-size: 24px;
+      line-height: 28px;
+
+    }
+
+    &__text {
+      right: 83px;
+      bottom: 65px;
+
+    }
+
+    &__button {
+      right: 62px;
+      top: 33px;
+      width: 108px;
     }
   }
 

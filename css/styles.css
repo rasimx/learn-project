@@ -77,14 +77,19 @@ body {
     align-items: center;
     height: 364px; }
   .intro__banner {
-    position: relative;
-    top: 55px; }
-  @media (max-width: 768px) {
-    .intro__inner {
-      height: 255px;
-      align-items: flex-end; } }
+    position: relative; }
+    @media (max-width: 560px) {
+      .intro__banner {
+        height: 180px;
+        width: 308px;
+        top: 30px; } }
+  @media (max-width: 560px) {
+    .intro {
+      top: 55px;
+      height: 255px; } }
 
 .banner {
+  max-width: 400px;
   height: 180px;
   background: #FFFFFF;
   border-radius: 2px;
@@ -114,10 +119,17 @@ body {
     position: relative;
     float: right;
     margin-right: 15px; }
-  @media (max-width: 768px) {
+  @media (max-width: 560px) {
     .banner__title {
       font-size: 24px;
-      line-height: 28px; } }
+      line-height: 28px; }
+    .banner__text {
+      right: 83px;
+      bottom: 65px; }
+    .banner__button {
+      right: 62px;
+      top: 33px;
+      width: 108px; } }
 
 .nav {
   border-bottom: 1px solid rgba(117, 117, 117, 0.2); }
