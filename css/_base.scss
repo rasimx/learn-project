@@ -44,5 +44,15 @@ body {
     }
 
   }
+
 }
 
+.page-title--search {
+  @media (max-width: 560px) {
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-bottom: 20px;
+
+  }
+}
