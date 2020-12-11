@@ -1,17 +1,33 @@
 .listing {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 
-    &__item {
+  &__item {
     width: 49%;
     margin-bottom: 65px;
 
-        @media (max-width: 1124px) {
-            width: 100%;
-            margin-bottom: 40px;
-        }
+    @media (max-width: 1124px) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
 
- }
+    .search-page & {
+      width: 31%;
+
+      @media (max-width: 992px) {
+        width: 49%;
+        margin-bottom: 40px;
+        align-items: center;
+      }
+      @media (max-width: 560px) {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+    }
+
+
+  }
 
 }
