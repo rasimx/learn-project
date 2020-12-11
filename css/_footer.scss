@@ -1,6 +1,5 @@
 .footer {
   background: #262626;
-  //height: 550px;
   color: white;
 
   &__header {
@@ -11,7 +10,6 @@
   }
 
   &__list {
-    //height: 220px;
     border-bottom: 1px solid #979797;
   }
 
@@ -35,6 +33,7 @@
     align-items: center;
     padding-right: 100px;
     font-size: 12px;
+    margin-top: 20px;
 
     @media (max-width: 560px) {
       flex-direction: column;
@@ -62,7 +61,6 @@
   }
 
   &__item {
-    width: 33.3%;
 
     @media (max-width: 560px) {
       width: 100%;
@@ -71,6 +69,10 @@
 
   }
 
+.list__item--last {
+  width: 30%;
+}
+
 
   select {
     background: #3B3B3B;
@@ -78,9 +80,6 @@
     width: 230px;
     height: 40px;
 
-    //@media (max-width: 560px) {
-    //  width: 160px;
-    //}
 
   }
 
