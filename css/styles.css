@@ -40,7 +40,10 @@ body {
     font-size: 22px;
     line-height: 34px;
     font-weight: normal;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px;
+    text-align: left; }
+    .page-title--search:after {
+      display: none; } }
 
 .header__inner {
   height: 72px;
@@ -187,6 +190,17 @@ body {
       .listing__item {
         width: 100%;
         margin-bottom: 40px; } }
+    .search-page .listing__item {
+      width: 31%; }
+      @media (max-width: 992px) {
+        .search-page .listing__item {
+          width: 49%;
+          margin-bottom: 40px;
+          align-items: center; } }
+      @media (max-width: 560px) {
+        .search-page .listing__item {
+          width: 100%;
+          margin-bottom: 40px; } }
 
 .main {
   padding-top: 60px; }
@@ -199,10 +213,8 @@ input {
   border-bottom: 2px solid #F2F2F2;
   margin-top: 40px;
   margin-bottom: 50px;
-  padding-top: 20px;
-  padding-bottom: 5px;
   font-size: 16px;
-  line-height: 24px; }
+  line-height: 35px; }
 
 .teaser {
   background: rgba(117, 117, 117, 0.04);
@@ -247,7 +259,8 @@ input {
       height: 110px; } }
 
 .teaser-search__img {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 100%; }
 .teaser-search__title {
   font-size: 16px;
   line-height: 24px;
@@ -261,8 +274,7 @@ input {
 .teaser-search__time {
   font-size: 13px;
   line-height: 21px;
-  color: #1D1D1D;
-  margin-bottom: 50px; }
+  color: #1D1D1D; }
 
 .teaser-search:hover {
   background-color: #e3e3e3; }
